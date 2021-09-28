@@ -6,7 +6,7 @@ define('BASE_DIR', __DIR__);
 
 $page = $_GET['page'] ?? 'home';
 
-include BASE_DIR . '/functions.php';
+include BASE_DIR . '/../app/functions.php';
 
 $data = [];
 

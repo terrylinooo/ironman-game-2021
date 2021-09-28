@@ -37,6 +37,6 @@ function render(string $path, array $data = []) {
  * @return void
  */
 function get_product_data() {
-    $data = file_get_contents(__DIR__ . '/includes/product_data.json');
+    $data = file_get_contents(__DIR__ . '/resource/product_data.json');
     return json_decode($data, true);
 }

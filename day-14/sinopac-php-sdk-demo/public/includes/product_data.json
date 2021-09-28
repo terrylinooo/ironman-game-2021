@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "時尚藍包",
+    "price": 1000,
+    "description": "好看到爆炸。不買可惜呀呀呀",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "潮男帥帥上衣",
+    "price": 2500,
+    "description": "穿了瞬間變潮男的帥帥上衣!!",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "韓系歐巴夾克",
+    "price": 1800,
+    "description": "只要穿上這件，女生看到都會叫你一聲「歐巴」... 馬。",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "藍酷酷上衣",
+    "price": 1600,
+    "description": "買就對了，穿上去男人味破表呀呀呀呀呀。",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+  }
+]

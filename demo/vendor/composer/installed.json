@@ -157,17 +157,17 @@
         },
         {
             "name": "terrylinooo/sinopac-php-sdk",
-            "version": "0.0.1",
-            "version_normalized": "0.0.1.0",
+            "version": "0.0.10",
+            "version_normalized": "0.0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/terrylinooo/sinopac-php-sdk.git",
-                "reference": "bd9e91259ca7822196f1b72ab4c38141855c9211"
+                "reference": "da61d7568ba7706f1de32eca968537acb157f605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terrylinooo/sinopac-php-sdk/zipball/bd9e91259ca7822196f1b72ab4c38141855c9211",
-                "reference": "bd9e91259ca7822196f1b72ab4c38141855c9211",
+                "url": "https://api.github.com/repos/terrylinooo/sinopac-php-sdk/zipball/da61d7568ba7706f1de32eca968537acb157f605",
+                "reference": "da61d7568ba7706f1de32eca968537acb157f605",
                 "shasum": ""
             },
             "require": {
@@ -177,7 +177,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2021-09-26T15:44:16+00:00",
+            "time": "2021-09-29T11:02:50+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -206,7 +206,7 @@
             ],
             "support": {
                 "issues": "https://github.com/terrylinooo/sinopac-php-sdk/issues",
-                "source": "https://github.com/terrylinooo/sinopac-php-sdk/tree/0.0.1"
+                "source": "https://github.com/terrylinooo/sinopac-php-sdk/tree/0.0.10"
             },
             "install-path": "../terrylinooo/sinopac-php-sdk"
         }

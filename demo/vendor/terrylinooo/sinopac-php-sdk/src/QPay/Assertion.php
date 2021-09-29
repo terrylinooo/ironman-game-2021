@@ -132,6 +132,10 @@ trait Assertion
         $apiFieldsLimitation = Fields::{$type}($fields);
         
         foreach ($apiFieldsLimitation as $name => $limitation) {
+            $limitation['required'] = isset($limitation['default']) 
+                ? false 
+                : $limitation['required'];
+
             $this->assertFieldRequired($limitation['required'], $fields, $name);
             $this->assertFieldType($limitation['type'], $fields, $name);
             $this->assertFieldLength($limitation['length'], $fields, $name);
@@ -185,7 +189,7 @@ trait Assertion
                     'Field %s is expected as %s, instead of %s.',
                     $name,
                     $type,
-                    $fieldType,
+                    $fieldType
                 )
             );
         }
@@ -215,7 +219,7 @@ trait Assertion
                     'Field %s is has a size limitation of %d, the size of your input is %d.',
                     $name,
                     $length,
-                    $fieldLength,
+                    $fieldLength
                 )
             );
         }
@@ -255,7 +259,7 @@ trait Assertion
                             $message,
                             $name,
                             implode(', ', $ruleOptions),
-                            $fields[$name],
+                            $fields[$name]
                         )
                     );
                 }
@@ -277,7 +281,7 @@ trait Assertion
                             $name,
                             $minimum,
                             $maximum,
-                            $fields[$name],
+                            $fields[$name]
                         )
                     ); 
                 }
@@ -299,7 +303,7 @@ trait Assertion
                         sprintf(
                             'Field %s should be fit with the date format of %d.',
                             $name,
-                            $ruleContent,
+                            $ruleContent
                         )
                     );
                 }
@@ -321,7 +325,7 @@ trait Assertion
     {
         if ($fields['pay_type'] === 'A' && $fields['amount'] > 3000000) {
             throw new QPayException(
-                'Cannot pay with ATM over $30,000 NTD. (system value: 3000000)',
+                'Cannot pay with ATM over $30,000 NTD. (system value: 3000000)'
             ); 
         }
     }
@@ -345,7 +349,7 @@ trait Assertion
                 $name,
                 'single quotes',
                 'double quotes',
-                'percent signs',
+                'percent signs'
             );
         }
     }

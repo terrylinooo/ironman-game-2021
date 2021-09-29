@@ -10,16 +10,16 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6 text-left">
                                     <label for="receiver-name">姓名</label>
-                                    <input type="text" class="form-control" id="receiver-name" required />
+                                    <input type="text" name="receiver_name" class="form-control" id="receiver-name" required />
                                 </div>
                                 <div class="form-group col-md-6 text-left">
                                     <label for="receiver-phone">手機</label>
-                                    <input type="text" class="form-control" id="receiver-phone" required />
+                                    <input type="text" name="receiver_phone" class="form-control" id="receiver-phone" required />
                                 </div>
                             </div>
                             <div class="form-group text-left">
                                 <label for="receiver-address">收件地址</label>
-                                <input type="text" class="form-control" id="receiver-address" required />
+                                <input type="text" name="receiver_address" class="form-control" id="receiver-address" required />
                             </div>
                         </div>
                         <table class="table table-bordered">
@@ -34,6 +34,11 @@
                                 <td>NT $<?php echo $product['price']; ?></td>
                             </tr>
                         </table>
+                        <?php if (!empty($error)) : ?>
+                            <div class="alert alert-danger" role="alert">
+                                <?php echo $error; ?>
+                            </div>
+                        <?php endif; ?>
                         <div class="text-center button-box">
                             <button type="submit" class="btn btn-primary btn-lg">進行付款</button>
                         </div>

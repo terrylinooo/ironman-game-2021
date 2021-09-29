@@ -25,25 +25,16 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => '0.0.1',
+    'version' => '0.0.1.0',
     'aliases' => 
     array (
     ),
     'reference' => NULL,
-    'name' => '__root__',
+    'name' => 'terrylinooo/sinopac-php-demo',
   ),
   'versions' => 
   array (
-    '__root__' => 
-    array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
-    ),
     'monolog/monolog' => 
     array (
       'pretty_version' => '2.3.4',
@@ -69,14 +60,23 @@ private static $installed = array (
         0 => '1.0.0 || 2.0.0 || 3.0.0',
       ),
     ),
-    'terrylinooo/sinopac-php-sdk' => 
+    'terrylinooo/sinopac-php-demo' => 
     array (
       'pretty_version' => '0.0.1',
       'version' => '0.0.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'bd9e91259ca7822196f1b72ab4c38141855c9211',
+      'reference' => NULL,
+    ),
+    'terrylinooo/sinopac-php-sdk' => 
+    array (
+      'pretty_version' => '0.0.10',
+      'version' => '0.0.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'da61d7568ba7706f1de32eca968537acb157f605',
     ),
   ),
 );

@@ -3,7 +3,7 @@
 /**
  * Home controller.
  */
-(function(){
+(function() {
     global $page;
 
     $data['page'] = $page;

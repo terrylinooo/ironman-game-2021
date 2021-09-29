@@ -1,5 +1,19 @@
 {
+    "name": "terrylinooo/sinopac-php-demo",
+    "description": "Demo site for SinoPac Bank SDK for PHP.",
+    "keywords": ["q-pay", "payment"],
+    "homepage": "https://github.com/terrylinooo/sinopac-php-sdk",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Terry Lin",
+            "email": "contact@terryl.in",
+            "homepage": "https://terryl.in",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "terrylinooo/sinopac-php-sdk": "^0.0.1"
+        "php": ">=7.1.0",
+        "terrylinooo/sinopac-php-sdk": "0.0.10"
     }
 }

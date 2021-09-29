@@ -1,0 +1,46 @@
+.img-box {
+    max-height: 220px;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.img-box img {
+    height: 200px;
+}
+
+.img-box-big {
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.img-box-big img {
+    max-height: 400px;
+}
+
+.card-body {
+    height: 450px;
+    position: relative;
+}
+
+.pricing-box {
+    position: absolute;
+    width: calc(100% - 40px);
+    text-align: center;
+    bottom: 10px;
+}
+
+body:not(.page-home) .pricing-header {
+    display: none;
+}
+
+.checkout-form {
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.button-box {
+    display: block;
+    overflow: hidden;
+    padding-top: 15px;
+}

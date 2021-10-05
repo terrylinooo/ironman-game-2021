@@ -1,0 +1,19 @@
+{
+    "name": "terrylinooo/wc-sinopac-payment",
+    "description": "Credit card and virtual account payment methods.",
+    "keywords": ["q-pay", "payment"],
+    "homepage": "https://github.com/terrylinooo/wc-sinopac-payment",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Terry Lin",
+            "email": "contact@terryl.in",
+            "homepage": "https://terryl.in",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "terrylinooo/sinopac-php-sdk": "0.0.10"
+    }
+}

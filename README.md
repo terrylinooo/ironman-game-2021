@@ -1,6 +1,9 @@
 # Ironman Game 13th (2021)
 
-範例集 - [永豐金 API - 豐支付 PHP SDK 設計及 WooCommerce 電商串接實戰](https://ithelp.ithome.com.tw/users/20111119/ironman/4406)
+[永豐金 API - 豐支付 PHP SDK 設計及 WooCommerce 電商串接實戰](https://ithelp.ithome.com.tw/users/20111119/ironman/4406) 範例集
+
+## SinoPac API Doc
+
 豐支付 API 鐵人賽文件 [./doc/api-specs-1.15.pdf](./doc/api-specs-1.15.pdf) 文件版權為永豐金所有。
 為避免文章篇幅放置文件截圖過長，以及片段不完整，故放上來，請讀者搭配閱讀。
 

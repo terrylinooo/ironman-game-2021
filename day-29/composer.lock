@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d7988f86994195aa201f52e7bded1235",
+    "packages": [
+        {
+            "name": "terrylinooo/sinopac-php-sdk",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/terrylinooo/sinopac-php-sdk.git",
+                "reference": "6e36ee3875c5b65997dfbfefab59e58d82fb5691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/terrylinooo/sinopac-php-sdk/zipball/6e36ee3875c5b65997dfbfefab59e58d82fb5691",
+                "reference": "6e36ee3875c5b65997dfbfefab59e58d82fb5691",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sinopac\\QPay\\": "src/QPay",
+                    "Sinopac\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Terry Lin",
+                    "email": "contact@terryl.in",
+                    "homepage": "https://terryl.in",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SinoPac Bank SDK for PHP.",
+            "homepage": "https://github.com/terrylinooo/sinopac-php-sdk",
+            "keywords": [
+                "payment",
+                "q-pay"
+            ],
+            "support": {
+                "issues": "https://github.com/terrylinooo/sinopac-php-sdk/issues",
+                "source": "https://github.com/terrylinooo/sinopac-php-sdk/tree/0.1.0"
+            },
+            "time": "2021-10-10T18:37:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
